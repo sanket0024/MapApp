@@ -1,6 +1,8 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/mapapp'
+
 @app.route("/")
 def index():
 	return render_template("index.html")
