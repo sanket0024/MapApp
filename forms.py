@@ -7,3 +7,12 @@ class SignupForm(FlaskForm):
 	email = StringField('Email', [validators.DataRequired(), validators.Email()])
 	password = PasswordField('Password', [validators.Length(min=8, max=16)])
 	submit = SubmitField('Sign up')
+
+class LoginForm(FlaskForm):
+	email = StringField('Email', [validators.DataRequired(), validators.Email()])
+	password = PasswordField('Password', [validators.DataRequired()])
+	submit = SubmitField('Sign in')
+
+class AddressForm(FlaskForm):
+	address = StringField('Address', [validators.DataRequired()])
+	submit = SubmitField("Search")
