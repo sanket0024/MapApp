@@ -3,7 +3,7 @@
 This application will let you login into the system and explore the locations over the map.
 
 ## Version
-1.0
+1.0 <br />
 
 ## Author
 * Sanket Mathur
@@ -14,9 +14,9 @@ This application will let you login into the system and explore the locations ov
 * All the static files (images and styles) are under MapApp/static folder
 
 ## To setup:
-$ pip install virtualenv
-$ virtualenv venv
-$ source venv/bin/activate
+$ pip install virtualenv <br />
+$ virtualenv venv <br />
+$ source venv/bin/activate <br />
 $ pip install -r requirements.txt
 
 ## Database:
@@ -32,9 +32,9 @@ $ python routes.py
 $ deactivate
 
 ## Acknowledgement
-This project uses code from the following third party librarys:
+This project uses code from the following third party librarys: <br />
 
-Flask
-Bootstrap
-WTForms
+Flask<br />
+Bootstrap <br />
+WTForms <br />
 Leaflet
