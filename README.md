@@ -40,6 +40,17 @@ WTForms <br />
 Leaflet
 
 ## Demo
+### Landing Page
+<br />
 ![Landing](https://github.com/sanket0024/MapApp/blob/master/DemoPics/Landing.png)
-![Locations](https://github.com/sanket0024/MapApp/blob/master/DemoPics/Locations.png)
+<br />
+
+### Signup Page
+<br />
 ![Signup](https://github.com/sanket0024/MapApp/blob/master/DemoPics/Signup.png)
+<br />
+
+### Locations Search
+<br />
+![Locations](https://github.com/sanket0024/MapApp/blob/master/DemoPics/Locations.png)
+<br />
